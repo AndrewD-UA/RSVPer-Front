@@ -1,0 +1,37 @@
+.headerContainer{
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    background-color: rgb(255, 255, 255, 0.5);
+
+    position: relative;
+}
+
+.headerText{
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.headerButton{
+    font-size: 1.5em;
+    flex-grow: 1;
+    background-color: transparent;
+    border-width: 0;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: relative;
+    bottom: 0;
+
+    margin-top: 0 auto;
+}

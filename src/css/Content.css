@@ -1,0 +1,5 @@
+.contentContainer{
+    height: 90vh;
+    width: 100vw;
+    overflow-y:hidden;
+}
